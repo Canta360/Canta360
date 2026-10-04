@@ -1,66 +1,53 @@
 <p align="center">
   <a href="https://capitata.dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Canta360/tekito/main/docs/images/capitata-dark.png">
-      <img src="https://raw.githubusercontent.com/Canta360/tekito/main/docs/images/capitata-light.png" alt="Capitata" width="320">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
+      <img src="assets/hero-light.png" alt="Capitata. We make things that work. Occasionally, really well. Step right up. Software, hardware, and whatever we cook up next." width="830">
     </picture>
   </a>
 </p>
 
-<h3 align="center">We make things that work. Occasionally, really well.</h3>
-
-<p align="center">
-  Step right up. Software, hardware, and whatever we cook up next.
-</p>
-
-<p align="center">
-  <sub>ちゃんと動くものを作っています。たまに、すごくよく。<br>
-  さあ寄ってらっしゃい。ソフトも、ハードも、次に思いつくものも。</sub>
-</p>
-
-<p align="center">
-  <a href="https://capitata.dev">capitata.dev</a>
-</p>
-
-<br>
-
-<p align="center">
-  <b>TEKITO</b><br>
-  <a href="https://github.com/Canta360/tekito/releases">Download</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Canta360/tekito">Repository</a>
-</p>
-
-<p align="center">
-  <b>FontDrop</b><br>
-  <a href="https://github.com/Canta360/FontDrop/releases">Download</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Canta360/FontDrop">Repository</a>
-</p>
-
-<details>
-<summary>What they do</summary>
-
-<br>
-
-**TEKITO** is English and Japanese input for Windows. Typos are fixed on Space,
-and nothing is touched when you meant what you typed. Everything runs on your PC.
-
-**FontDrop** is a batch font installer for Windows. Preview fonts from files,
-ZIPs and folders, then install only the ones you want.
-
-</details>
-
-<details>
-<summary>日本語</summary>
-
-<br>
-
-**TEKITO** は、Windows 用の英語・日本語入力です。スペースキーで打ち間違いが直り、
-意図して打った文字には手を触れません。すべて PC の中だけで動きます。
-[日本語の説明](https://github.com/Canta360/tekito/blob/main/README_JP.md)
-
-**FontDrop** は、Windows 用のフォント一括インストーラーです。ファイル、ZIP、
-フォルダーからフォントをプレビューして、入れたいものだけをインストールできます。
-
-</details>
+<table align="center">
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://github.com/Canta360/tekito">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-tekito-dark.png">
+          <img src="assets/card-tekito-light.png" alt="TEKITO: English and Japanese input for Windows" width="400">
+        </picture>
+      </a><br>
+      <a href="https://github.com/Canta360/tekito/releases">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/btn-download-dark.png">
+          <img src="assets/btn-download-light.png" alt="Download TEKITO" width="190">
+        </picture>
+      </a>
+      <a href="https://github.com/Canta360/tekito">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/btn-repo-dark.png">
+          <img src="assets/btn-repo-light.png" alt="TEKITO repository" width="190">
+        </picture>
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/Canta360/FontDrop">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-fontdrop-dark.png">
+          <img src="assets/card-fontdrop-light.png" alt="FontDrop: batch font installer for Windows" width="400">
+        </picture>
+      </a><br>
+      <a href="https://github.com/Canta360/FontDrop/releases">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/btn-download-dark.png">
+          <img src="assets/btn-download-light.png" alt="Download FontDrop" width="190">
+        </picture>
+      </a>
+      <a href="https://github.com/Canta360/FontDrop">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/btn-repo-dark.png">
+          <img src="assets/btn-repo-light.png" alt="FontDrop repository" width="190">
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
