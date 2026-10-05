@@ -30,14 +30,14 @@
     <stop offset="0" stop-color="#F7931E"/><stop offset="0.62" stop-color="#F7931E"/><stop offset="1" stop-color="#FCEE21"/>
   </linearGradient>
   <mask id="front" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="128"><g>
-      <animateTransform attributeName="transform" type="translate" values="0 144;0 -13" dur="5.5s" begin="0.5s" fill="freeze"
+      <animateTransform attributeName="transform" type="translate" values="0 144;0 11" dur="5.5s" begin="0.5s" fill="freeze"
         calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.3 1"/>
       <path d="M-300 0 q37.5 -7 75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 V400 H-300 Z" fill="#fff">
         <animateTransform attributeName="transform" type="translate" values="0 0;-150 0" dur="2.4s" repeatCount="indefinite"/>
       </path>
     </g></mask>
   <mask id="back" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="128"><g>
-      <animateTransform attributeName="transform" type="translate" values="0 144;0 -15" dur="5.5s" begin="0.5s" fill="freeze"
+      <animateTransform attributeName="transform" type="translate" values="0 144;0 6" dur="5.5s" begin="0.5s" fill="freeze"
         calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.3 1"/>
       <path d="M-300 0 q37.5 -9 75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 V400 H-300 Z" fill="#fff">
         <animateTransform attributeName="transform" type="translate" values="-150 0;0 0" dur="3.4s" repeatCount="indefinite"/>
