@@ -29,42 +29,22 @@
   <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
     <stop offset="0" stop-color="#F7931E"/><stop offset="0.62" stop-color="#F7931E"/><stop offset="1" stop-color="#FCEE21"/>
   </linearGradient>
-  <radialGradient id="r0" gradientUnits="userSpaceOnUse" cx="0" cy="128" r="700"
-      gradientTransform="translate(0 128) scale(1 0.35) translate(0 -128)">
-    <stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
-  </radialGradient>
-  <filter id="bleed0" filterUnits="userSpaceOnUse" x="0" y="0" width="600" height="128" color-interpolation-filters="sRGB">
-    <feTurbulence type="fractalNoise" baseFrequency="0.022 0.03" numOctaves="4" seed="7" result="n"/>
-    <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1 0 0 0 0" result="na"/>
-    <feComposite in="SourceGraphic" in2="na" operator="arithmetic" k1="0" k2="1" k3="0.55" k4="-0.95" result="sum">
-      <animate attributeName="k4" values="-0.95;-0.95;0.55;0.55" keyTimes="0;0.1;0.9;1" dur="8s" begin="0.4s" fill="freeze"
-               calcMode="spline" keySplines="0 0 1 1;0.25 0.1 0.25 1;0 0 1 1"/>
-    </feComposite>
-    <feComponentTransfer in="sum" result="th"><feFuncA type="linear" slope="14" intercept="-7"/></feComponentTransfer>
-    <feColorMatrix in="th" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0"/>
-  </filter>
-  <mask id="ink0" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="128">
-    <rect width="600" height="128" fill="url(#r0)" filter="url(#bleed0)"/>
-  </mask>
-  <radialGradient id="r1" gradientUnits="userSpaceOnUse" cx="600" cy="0" r="700"
-      gradientTransform="translate(600 0) scale(1 0.35) translate(-600 0)">
-    <stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
-  </radialGradient>
-  <filter id="bleed1" filterUnits="userSpaceOnUse" x="0" y="0" width="600" height="128" color-interpolation-filters="sRGB">
-    <feTurbulence type="fractalNoise" baseFrequency="0.022 0.03" numOctaves="4" seed="21" result="n"/>
-    <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1 0 0 0 0" result="na"/>
-    <feComposite in="SourceGraphic" in2="na" operator="arithmetic" k1="0" k2="1" k3="0.55" k4="-0.95" result="sum">
-      <animate attributeName="k4" values="-0.95;-0.95;0.55;0.55" keyTimes="0;0.1;0.9;1" dur="8s" begin="0.9s" fill="freeze"
-               calcMode="spline" keySplines="0 0 1 1;0.25 0.1 0.25 1;0 0 1 1"/>
-    </feComposite>
-    <feComponentTransfer in="sum" result="th"><feFuncA type="linear" slope="14" intercept="-7"/></feComponentTransfer>
-    <feColorMatrix in="th" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0"/>
-  </filter>
-  <mask id="ink1" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="128">
-    <rect width="600" height="128" fill="url(#r1)" filter="url(#bleed1)"/>
-  </mask>
+  <mask id="front" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="128"><g>
+      <animateTransform attributeName="transform" type="translate" values="0 144;0 -13" dur="5.5s" begin="0.5s" fill="freeze"
+        calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.3 1"/>
+      <path d="M-300 0 q37.5 -7 75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 V400 H-300 Z" fill="#fff">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-150 0" dur="2.4s" repeatCount="indefinite"/>
+      </path>
+    </g></mask>
+  <mask id="back" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="128"><g>
+      <animateTransform attributeName="transform" type="translate" values="0 144;0 -15" dur="5.5s" begin="0.5s" fill="freeze"
+        calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.3 1"/>
+      <path d="M-300 0 q37.5 -9 75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 t75 0 V400 H-300 Z" fill="#fff">
+        <animateTransform attributeName="transform" type="translate" values="-150 0;0 0" dur="3.4s" repeatCount="indefinite"/>
+      </path>
+    </g></mask>
 </defs>
 <g transform="translate(145.0 29.385878489326764) scale(0.5090311986863711)" fill="#000000"><use xlink:href="#w"/></g>
-<g mask="url(#ink0)"><rect width="600" height="128" fill="#F7931E"/><g transform="translate(145.0 29.385878489326764) scale(0.5090311986863711)" fill="#fff"><use xlink:href="#w"/></g></g>
-<g mask="url(#ink1)"><rect width="600" height="128" fill="url(#g)"/><g transform="translate(145.0 29.385878489326764) scale(0.5090311986863711)" fill="#fff"><use xlink:href="#w"/></g></g>
+<g mask="url(#back)" opacity="0.55"><rect width="600" height="128" fill="url(#g)"/></g>
+<g mask="url(#front)"><rect width="600" height="128" fill="url(#g)"/><g transform="translate(145.0 29.385878489326764) scale(0.5090311986863711)" fill="#fff"><use xlink:href="#w"/></g></g>
 </svg>
