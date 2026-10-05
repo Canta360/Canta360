@@ -44,21 +44,20 @@
       </path>
     </g></mask>
 </defs>
-<g transform="translate(145.0 43.385878489326764) scale(0.5090311986863711)" fill="#000000"><use xlink:href="#w"/></g>
+<g transform="translate(145.0 43.385878489326764) scale(0.5090311986863711)" fill="#FFFFFF"><use xlink:href="#w"/></g>
 <g mask="url(#back)" opacity="0.55"><rect width="600" height="156" fill="url(#g)"/></g>
 <g mask="url(#front)"><rect width="600" height="156" fill="url(#g)"/><g transform="translate(145.0 43.385878489326764) scale(0.5090311986863711)" fill="#fff"><use xlink:href="#w"/></g></g>
-<g stroke="#14213D" stroke-width="1.5" stroke-linejoin="round">
+<g>
   <animateTransform attributeName="transform" type="translate" values="0 172;0 34" dur="5.5s" begin="0.5s" fill="freeze"
     calcMode="spline" keyTimes="0;1" keySplines="0.45 0 0.3 1"/>
   <g transform="translate(515 0)">
     <g><animateTransform attributeName="transform" type="translate" values="0 -1.42;0 -0.09;0 1.25;0 2.41;0 3.20;0 3.50;0 3.27;0 2.54;0 1.42;0 0.09;0 -1.25;0 -2.41;0 -3.20;0 -3.50;0 -3.27;0 -2.54;0 -1.42" dur="2.4s" repeatCount="indefinite"/>
       <g><animateTransform attributeName="transform" type="rotate" values="7.67 0 0;8.40 0 0;7.84 0 0;6.09 0 0;3.42 0 0;0.22 0 0;-3.01 0 0;-5.78 0 0;-7.67 0 0;-8.40 0 0;-7.84 0 0;-6.09 0 0;-3.42 0 0;-0.22 0 0;3.01 0 0;5.78 0 0;7.67 0 0" dur="2.4s" repeatCount="indefinite"/>
-        <rect x="-0.7" y="-29" width="1.4" height="27" fill="#14213D" stroke="none"/>
+        <rect x="-0.7" y="-29" width="1.4" height="27" fill="#FFFFFF"/>
         <path d="M0.7 -29 L8 -26.6 L0.7 -24.2 Z" fill="#FF477E"/>
-        <path d="M2.2 -24 L2.2 -5 L14.5 -5 Z" fill="#FFFFFF"/>
+        <path d="M2.2 -24 L2.2 -5 L14.5 -5 Z" fill="#FFC93C"/>
         <path d="M-2.2 -21 L-2.2 -5 L-12 -5 Z" fill="#4CC9F0"/>
         <path d="M-16 -4 L16 -4 Q14 6.5 9 6.5 L-9 6.5 Q-14 6.5 -16 -4 Z" fill="#E5383B"/>
-        <circle cx="-5" cy="0.6" r="1.7" fill="#FFFFFF"/><circle cx="1" cy="0.6" r="1.7" fill="#FFFFFF"/><circle cx="7" cy="0.6" r="1.7" fill="#FFFFFF"/>
       </g>
     </g>
   </g>
